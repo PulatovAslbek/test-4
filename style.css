@@ -1,0 +1,60 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* textarea {
+    font-weight: 900;
+    font-size: 35px;
+    color: blue;
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    resize: none;
+}
+textarea::placeholder {
+    font-weight: 900;
+    font-size: 35px;
+    color: red;
+    opacity: 0.5;
+} */
+
+
+.box {
+    padding: 0.5px;
+    
+    background-color: green;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto; 
+}
+
+/* .box:hover {
+;
+    transform: translateX(150px);
+    background-color: blue;
+} */
+
+/* .text-1 {
+    margin-bottom: 50px;
+}
+
+.text-2 {
+    margin-top: 70px;
+} */
+
+caption {
+    border: 1px solid #000;
+    border-bottom: 1px solid transparent;
+    border-radius: 10px 10px 0 0 ;
+    padding: 10px 15px;
+}
+
+table, th, td {
+    padding: 10px 15px;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
